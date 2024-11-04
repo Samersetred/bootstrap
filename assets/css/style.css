@@ -6,7 +6,16 @@
 /* global styles */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
-
+.pretty-button {
+    background-color:#184f63;
+    border: #184f63;
+    }
+    
+    .pretty-button:hover{
+    background-color:#1d6d8a;
+    border:#1d6d8a;
+    }
+    
 body {
     font-family: "Poppins", sans-serif;
     background-color:  #a4c2d1;
@@ -23,7 +32,6 @@ h2 {
     border-radius: 0;
 
 }
-
 
 
     #about {
