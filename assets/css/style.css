@@ -1,0 +1,56 @@
+/*  
+
+    
+*/
+
+/* global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:  #a4c2d1;
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63;
+}
+    #about {
+        background-color: white;
+    }
+    #portfolio {
+        background-color: #dbdcde;
+    }
+    #portfolio .card-title {
+        color:#1f7798;
+        font-size: 1.2rem;
+    }
+    #portfolio .btn-outline-secondary:hover {
+        background-color:#1f7798
+    }
+
+    #portfolio .card-text {
+        min-height: 120px;
+    }
+    #contact {
+        background-color: white;
+    }
+    #hero {
+        background-color: lightgrey;
+        background-image:url(../images/portfolio-images/backgroundimage.webp);
+        background-size: cover;
+        background-position: 50% 70%;
+        padding: 5% 7%;
+        min-height: 500px;
+    }
+@media screen and (min-width: 1200px;) {
+    /* this fixes all my portfolio cards from being too tall on x1 screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
+    
+}
+
+
