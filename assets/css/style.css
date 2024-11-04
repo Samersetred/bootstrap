@@ -17,6 +17,15 @@ h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63;
 }
+
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0;
+
+}
+
+
+
     #about {
         background-color: white;
     }
@@ -45,12 +54,10 @@ h2 {
         padding: 5% 7%;
         min-height: 500px;
     }
-@media screen and (min-width: 1200px;) {
+@media screen and (min-width: 1200px) {
     /* this fixes all my portfolio cards from being too tall on x1 screens */
     #portfolio .card-text {
         min-height: auto;
     }
-    
 }
-
-
+    
